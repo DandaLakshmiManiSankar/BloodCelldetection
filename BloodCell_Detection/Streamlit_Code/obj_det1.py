@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 # Load trained YOLOv10 model
-MODEL_PATH = "/content/runs/detect/train/weights/best.pt"  # Update with actual path
+MODEL_PATH = "best.pt"  # Update with actual path
 model = YOLO(MODEL_PATH)
 
 st.title("Blood Cell Detection using YOLOv10")
